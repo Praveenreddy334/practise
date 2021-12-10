@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>feed back form</title>
+</head>
+<body>
+<h1> Course Signup Page</h1>
+<p>please note all the fields are mandatory</p>
+<form action="/home/praveen/Downloads/welcome.html" method="get">
+	<label for="fn"> first name</label>
+	<input  id="fn" type="text" name="ufname" placeholder="Firstname" required="yes"><br>
+	<label for="ln">last name</label>
+	<input id="ln" type="text" name="ulname" placeholder="lastname" required="yes"><br>
+	<label for="email">Email    </label>
+	<input id="email" type="email" name="uemail" placeholder="enter email" required="yes"><br>
+	<label for="pwd">password</label>
+	<input id="pwd" type="password" name="upwd" required="yes"><br>
+	<p>Are you over 18?</p>
+	<input id="s" type="radio" name="con">
+	<label for="s">Yes</label>
+	<input id="n" type="radio" name="con">
+	<label for="n">No</label>
+	<p>Do you have credit card or debitcard or paypal</p>
+	<select name='card'>
+		<option value="cc">credit card</option>
+		<option value="dc">debit card</option>
+		<option value="pp">paypal </option>
+	</select>
+	<br>
+	<input type="submit" name="usubmit" value="Signup">
+</form>
+</body>
+</html>
